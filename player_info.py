@@ -1,5 +1,7 @@
 class Hero:
 
+    """ Description of the properties of a Hero in-game """
+
     # Create a Hero with specific attributes
     def __init__(self):
         
