@@ -3,7 +3,7 @@ from utils import clear_window
 choice = ["X", " ", " ", " "]
 
 
-def prompt_intro():
+def intro():
 
     """ Prompts the intro text and info """
 
@@ -32,6 +32,5 @@ def main():
 
     """ Main program to start the game"""
 
-    # prompt_intro()
-    # prompt_menu()
-    # 
+    # intro()
+    # menu()
