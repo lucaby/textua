@@ -1,8 +1,5 @@
 from utils import clear_window
 
-choice = ["X", " ", " ", " "]
-
-
 def intro():
 
     """ Prompts the intro text and info """
@@ -19,14 +16,25 @@ def intro():
 
 def menu():
     
-    """ Prompts the menu choices """
-
+    """ Menu functionality """
+    
     clear_window()
-    print("Use the arrow keys to change selection, then press the 'enter' key to select")
-    print("[ "+choice[0]+" ] New game")
-    print("[ "+choice[1]+" ] Load game")
-    print("[ "+choice[2]+" ] Credits")
-    print("[ "+choice[3]+" ] Quit")
+    print("Type the number of the option, then press the 'enter' key to select")
+    print("1. New game")
+    print("2. Load game")
+    print("3. Credits")
+    print("4. Quit")
+
+    choice = int(input("--->"))
+
+    if choice == 1:
+        pass
+    elif choice == 2:
+        pass
+    elif choice == 3:
+        pass
+    elif choice == 4:
+        quit()
 
 def main():
 
